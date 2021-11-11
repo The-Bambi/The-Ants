@@ -24,6 +24,5 @@ while not DONE:
 
         pygame.draw.rect(screen, (200,0,0), pygame.Rect(test_ant.x, test_ant.y, 3, 3))
 
-
         pygame.display.flip()
         clock.tick(30)
